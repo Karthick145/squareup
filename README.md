@@ -37,12 +37,13 @@ A collection of command-line samples for the Square API.
 5. Execute any of the scripts to begin syncing payments:
 
   ```bash
-  $ python sync_payments.py
+  $ python sync_payments.py -m list_payments
   ```
   
 6. The script will output:
 
   Pulls transaction information so for happened and dumps into ``data/payments/dump.json``
-
-
+ 
+ 
+ 
 #### Note: Update your Sandbox or Production account credentials `config.ini`
