@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-DIR = __package__
+import os
+
+DIR = os.path.split(__file__)[0]
