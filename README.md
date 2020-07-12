@@ -15,7 +15,7 @@ A collection of command-line samples for the Square API.
   
 2. Make sure you can import the client library:
 
-  ```
+  ```bash
   $ python
   >>> import square
   ```
@@ -30,7 +30,8 @@ A collection of command-line samples for the Square API.
 
 4. Make sure you can import the current package:
 
-  ```python
+  ```bash
+  $ python
   >>> import squareup
   ```
 
