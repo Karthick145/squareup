@@ -2,7 +2,7 @@
 
 A collection of command-line samples for the Square API.
 
-##Setup
+### Setup
 
 1. Download Square APIs Client Library for Python SDK:
     https://github.com/square/square-python-sdk.git
@@ -40,7 +40,7 @@ A collection of command-line samples for the Square API.
   
 6. The script will output:
 
-  `Pulls transaction information so for happened and dumps into data/payments/dump.json `
+  Pulls transaction information so for happened and dumps into ``data/payments/dump.json``
 
 
-Note: Update your Sandbox or Production account credentials `config.ini`
+#### Note: Update your Sandbox or Production account credentials `config.ini`
