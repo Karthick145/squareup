@@ -31,7 +31,7 @@ A collection of command-line samples for the Square API.
 4. Make sure you can import the current package:
 
   ```python
-  $ import squareup
+  >>> import squareup
   ```
 
 5. Execute any of the scripts to begin syncing payments:
