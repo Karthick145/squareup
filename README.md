@@ -10,7 +10,7 @@ A collection of command-line samples for the Square API.
   or use pip:
 
   ```bash
-  $ pip install google-api-python-client
+  $ pip install squareup
   ```
   
 2. Make sure you can import the client library:
