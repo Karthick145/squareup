@@ -20,9 +20,11 @@ A collection of command-line samples for the Square API.
   >>> import square
   ```
   
-3. Execute below command to add current dir to PYTHONPATH:
+3. Clone the repo and execute below command to add it to PYTHONPATH:
 
   ```bash
+  $ git clone https://github.com/Karthick145/squareup.git
+  $ cd squareup
   $ source system.conf
   ```
 
