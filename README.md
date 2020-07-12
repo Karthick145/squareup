@@ -47,4 +47,4 @@ A collection of command-line samples for the Square API.
  
  
  
-#### Note: Update your Sandbox or Production account credentials `config.ini`
+**Note:** Update your Sandbox or Production account credentials `config.ini`
