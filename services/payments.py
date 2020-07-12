@@ -39,8 +39,7 @@ class Payments(object):
         return payments
 
     def sync(self, **kwargs):
-        svc_obj = Payments()
-        invoke_method = getattr(svc_obj, kwargs['method'])
+        invoke_method = getattr(self, kwargs['method'])
         payments = invoke_method(**kwargs)
         payments = payments if isinstance(payments, list) else [payments]
         dump = get_dump(self._service)
