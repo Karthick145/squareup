@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
+import os
 import configparser
 
-config_file = '/squareup/config.ini'
+from squareup import DIR
+
+
+config_file = os.path.join(DIR, 'config.ini')
 
 config = configparser.ConfigParser()
 config.read(config_file)
