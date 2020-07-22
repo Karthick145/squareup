@@ -4,7 +4,7 @@ A collection of command-line samples for the Square API.
 
 ### Setup
 
-1. Download Square APIs Client Library for Python SDK:
+1. Download Square APIs Client Library for Python SDK:  
     https://github.com/square/square-python-sdk.git
 
   or use pip:
@@ -35,7 +35,8 @@ A collection of command-line samples for the Square API.
   >>> import squareup
   ```
 
-5. Execute any of the scripts to begin syncing payments:
+5. Execute any of the scripts to begin syncing payments:  
+    **Note:** Update `config.ini` with your credentials/access token obtained from client
 
   ```bash
   $ python sync_payments.py -m list_payments
